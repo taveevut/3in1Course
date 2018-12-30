@@ -2,7 +2,7 @@
 > การเขียนโปรแกรมสร้างเว็บแอพพลิเคชั่น Codeigniter Framework 3HMVC+Bootstra4+AngularJS
 
 <p align="center">
-  <img src="https://scontent.fbkk5-1.fna.fbcdn.net/v/t1.0-9/47688584_1753038784817885_4048614530316500992_n.jpg?_nc_cat=109&_nc_ht=scontent.fbkk5-1.fna&oh=4ea652f7779179c82c4bd1bbed94c6b0&oe=5CD50B09" width="300">
+  <img src="https://scontent.fbkk5-1.fna.fbcdn.net/v/t1.0-9/47688584_1753038784817885_4048614530316500992_n.jpg?_nc_cat=109&_nc_ht=scontent.fbkk5-1.fna&oh=4ea652f7779179c82c4bd1bbed94c6b0&oe=5CD50B09" width="400">
 </p>
 
 ## Workshop / base Codeigniter3 HMVC
@@ -15,6 +15,37 @@
         - สร้างหน้า `index.php` ไว้แสดงสินค้าในที่นี่จะแสดงสินค้าในหน้า Landing Page
         - สร้างหน้าตะกร้าสินค้า `cart.php` ไว้แสดงรายการสั่งซื้อ
         - สร้างหน้าแจ้งชำระเงิน `payment.php` ฟอร์มสำหรับแจ้งชำระเงิน
+## อ่านก่อน Clone / Download
+#### สำหรับคนี่ไม่ได้ทำ `Visult Host` หมายถึงตอนเรียกใช้งานหน้าเว็บขึ้นต้นด้วย `http://localhost/shop-cms/` ต้องทำการปรับเปลี่ยนโค้ดบางส่วน 
+> สำหรับคนที่ทำ Visult Host ไม่ต้องปรับอะไรใดๆทั้งสิ้น
+- เปิดไฟล์ `index.php` อยู่ในโฟลเดอร์  `shop-cms/index.php` จากนั้นแก้ไขดังนี้ บรรทัดที่ 21-23 ให้แทนที่ด้วยโค้ดข้างล่างนี้
+```
+// $host_name = explode( '.', $_SERVER['HTTP_HOST'] );
+// $site_name = $host_name[count( $host_name ) - 2];
+$site_name = $_SERVER['HTTP_HOST'];
+```
+ต่อบรรทัดที่ 97-115 ให้แทนที่ด้วยโค้ดข้างล่างนี้
+```
+if ( isset( $uri ) && $uri[3] === APP_API ) {
+
+    $_SERVER['REQUEST_URI'] = str_replace( APP_API . '/', '', $_SERVER['REQUEST_URI'] );
+    $_SERVER['REQUEST_URI'] = str_replace( APP_API, '', $_SERVER['REQUEST_URI'] );
+    $application_folder = APP_API_PATH;
+
+} elseif ( isset( $uri ) && $uri[3] === APP_BACKEND ) {
+
+    $_SERVER['REQUEST_URI'] = str_replace( APP_BACKEND . '/', '', $_SERVER['REQUEST_URI'] );
+    $_SERVER['REQUEST_URI'] = str_replace( APP_BACKEND, '', $_SERVER['REQUEST_URI'] );
+    $application_folder = APP_BACKEND_PATH;
+
+} else {
+
+    $_SERVER['REQUEST_URI'] = str_replace( APP_FRONTEND . '/', '', $_SERVER['REQUEST_URI'] );
+    $_SERVER['REQUEST_URI'] = str_replace( APP_FRONTEND, '', $_SERVER['REQUEST_URI'] );
+    $application_folder = APP_FRONTEND_PATH;
+
+}
+```
 
 ## สไลด์นําเสนอ
 - [สไลด์นําเสนอ 1](https://docs.google.com/presentation/d/1mUWPu1C316YDOj9jMEFgVRfNrD8MGnWJeBPd5vXvU1E/edit?usp=sharing)
