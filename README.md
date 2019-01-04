@@ -3,13 +3,12 @@
 
 <p>
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E" target="_blank" title="คลิกเพื่อดูวิดิโอ">
-  <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
-alt="sb73-RBMo0E" width="40%" /><br>
-<b>Backend</b>
+  <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="40%" /><br>
+  <strong>Backend</strong>
 </a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E" target="_blank" title="คลิกเพื่อดูวิดิโอ">
-<img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="40%" /><br>
-<b>Frontend</b>
+  <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="40%" /><br>
+  <strong>Frontend</strong>
 </a>
 </p>
 
