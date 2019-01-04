@@ -1,13 +1,13 @@
 # 3in1 Course
 > การเขียนโปรแกรมสร้างเว็บแอพพลิเคชั่น Codeigniter Framework 3HMVC+Bootstra4+AngularJS
 
-<p align="center">
+<p>
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E
 " target="_blank" title="คลิกเพื่อดูวิดิโอ"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
-alt="sb73-RBMo0E" width="50%" /></a>
+alt="sb73-RBMo0E" width="30%" /></a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E
 " target="_blank" title="คลิกเพื่อดูวิดิโอ"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
-alt="sb73-RBMo0E" width="50%" /></a>
+alt="sb73-RBMo0E" width="30%" /></a>
 </p>
 
 ## Workshop / base Codeigniter3 HMVC
