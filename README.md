@@ -2,7 +2,9 @@
 > การเขียนโปรแกรมสร้างเว็บแอพพลิเคชั่น Codeigniter Framework 3HMVC+Bootstra4+AngularJS
 
 <p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/sb73-RBMo0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E
+" target="_blank"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
+alt="sb73-RBMo0E" width="240" height="180" border="10" /></a>
 </p>
 
 ## Workshop / base Codeigniter3 HMVC
