@@ -3,8 +3,11 @@
 
 <p align="center">
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E
-" target="_blank"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
-alt="sb73-RBMo0E" width="240" height="180" border="10" /></a>
+" target="_blank" title="คลิกเพื่อดูวิดิโอ"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
+alt="sb73-RBMo0E" width="50%" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E
+" target="_blank" title="คลิกเพื่อดูวิดิโอ"><img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
+alt="sb73-RBMo0E" width="50%" /></a>
 </p>
 
 ## Workshop / base Codeigniter3 HMVC
