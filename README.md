@@ -4,12 +4,12 @@
 <p>
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E" target="_blank" title="คลิกเพื่อดูวิดิโอ">
   <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" 
-alt="sb73-RBMo0E" width="40%" />
-Backend
+alt="sb73-RBMo0E" width="40%" /><br>
+<b>Backend</b>
 </a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E" target="_blank" title="คลิกเพื่อดูวิดิโอ">
-<img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="40%" />
-Frontend
+<img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="40%" /><br>
+<b>Frontend</b>
 </a>
 </p>
 
