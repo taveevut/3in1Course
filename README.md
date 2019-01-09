@@ -1,10 +1,10 @@
 # การเขียนโปรแกรมสร้างเว็บแอพพลิเคชั่น Codeigniter Framework 3HMVC + Bootstra4 + AngularJS
 > เป็นเนื้อหาที่ใช้ในการอบรมการเขียนโปรแกรมสร้างเว็บแอพพลิเคชั่น Codeigniter Framework 3HMVC + Bootstra4 + AngularJS  และสามารถนำโค้ดมาดูย้อนหลังไว้เป็นกรณีศึกษาได้
 ## ตัวอย่าง Workshop
-<p align="center>
+<p align="center">
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=sb73-RBMo0E" target="_blank" title="คลิกเพื่อดูวิดิโอ">
-  <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="50%" />
-</a>
+    <img src="http://img.youtube.com/vi/sb73-RBMo0E/0.jpg" alt="sb73-RBMo0E" width="50%" />
+  </a>
 </p>
 
 ## Workshop / base Codeigniter3 HMVC
